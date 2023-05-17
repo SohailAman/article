@@ -1,0 +1,4012 @@
+@charset "UTF-8";
+.cols {
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 0 15px
+}
+
+@media screen and (min-width: 768px) {
+    .cols {
+        margin: 0 -10px
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .cols {
+        margin: 0 -10px
+    }
+}
+
+.cols.is-mobile {
+    display: flex
+}
+
+.cols.align-center {
+    justify-content: center
+}
+
+@media screen and (min-width: 520px) {
+    .cols {
+        display: flex
+    }
+}
+
+.col {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0 2.5px 20px
+}
+
+@media screen and (min-width: 768px) {
+    .col {
+        padding: 0 10px 20px
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .col {
+        padding: 0 10px 20px
+    }
+}
+
+.col:last-child {
+    margin: 0
+}
+
+.col.flex {
+    display: flex
+}
+
+.col.is-1 {
+    flex: none;
+    width: 8.3333333333%
+}
+
+.col.is-offset-1 {
+    margin-left: 8.3333333333%
+}
+
+.col.is-2 {
+    flex: none;
+    width: 16.6666666667%
+}
+
+.col.is-offset-2 {
+    margin-left: 16.6666666667%
+}
+
+.col.is-3 {
+    flex: none;
+    width: 25%
+}
+
+.col.is-offset-3 {
+    margin-left: 25%
+}
+
+.col.is-4 {
+    flex: none;
+    width: 33.3333333333%
+}
+
+.col.is-offset-4 {
+    margin-left: 33.3333333333%
+}
+
+.col.is-5 {
+    flex: none;
+    width: 41.6666666667%
+}
+
+.col.is-offset-5 {
+    margin-left: 41.6666666667%
+}
+
+.col.is-6 {
+    flex: none;
+    width: 50%
+}
+
+.col.is-offset-6 {
+    margin-left: 50%
+}
+
+.col.is-7 {
+    flex: none;
+    width: 58.3333333333%
+}
+
+.col.is-offset-7 {
+    margin-left: 58.3333333333%
+}
+
+.col.is-8 {
+    flex: none;
+    width: 66.6666666667%
+}
+
+.col.is-offset-8 {
+    margin-left: 66.6666666667%
+}
+
+.col.is-9 {
+    flex: none;
+    width: 75%
+}
+
+.col.is-offset-9 {
+    margin-left: 75%
+}
+
+.col.is-10 {
+    flex: none;
+    width: 83.3333333333%
+}
+
+.col.is-offset-10 {
+    margin-left: 83.3333333333%
+}
+
+.col.is-11 {
+    flex: none;
+    width: 91.6666666667%
+}
+
+.col.is-offset-11 {
+    margin-left: 91.6666666667%
+}
+
+.col.is-12 {
+    flex: none;
+    width: 100%
+}
+
+.col.is-offset-12 {
+    margin-left: 100%
+}
+
+@media screen and (min-width: 520px) {
+    .col {
+        margin: 0
+    }
+    .col.is-1-sm {
+        flex: none;
+        width: 8.3333333333%
+    }
+    .col.is-offset-1-sm {
+        margin-left: 8.3333333333%
+    }
+    .col.is-2-sm {
+        flex: none;
+        width: 16.6666666667%
+    }
+    .col.is-offset-2-sm {
+        margin-left: 16.6666666667%
+    }
+    .col.is-3-sm {
+        flex: none;
+        width: 25%
+    }
+    .col.is-offset-3-sm {
+        margin-left: 25%
+    }
+    .col.is-4-sm {
+        flex: none;
+        width: 33.3333333333%
+    }
+    .col.is-offset-4-sm {
+        margin-left: 33.3333333333%
+    }
+    .col.is-5-sm {
+        flex: none;
+        width: 41.6666666667%
+    }
+    .col.is-offset-5-sm {
+        margin-left: 41.6666666667%
+    }
+    .col.is-6-sm {
+        flex: none;
+        width: 50%
+    }
+    .col.is-offset-6-sm {
+        margin-left: 50%
+    }
+    .col.is-7-sm {
+        flex: none;
+        width: 58.3333333333%
+    }
+    .col.is-offset-7-sm {
+        margin-left: 58.3333333333%
+    }
+    .col.is-8-sm {
+        flex: none;
+        width: 66.6666666667%
+    }
+    .col.is-offset-8-sm {
+        margin-left: 66.6666666667%
+    }
+    .col.is-9-sm {
+        flex: none;
+        width: 75%
+    }
+    .col.is-offset-9-sm {
+        margin-left: 75%
+    }
+    .col.is-10-sm {
+        flex: none;
+        width: 83.3333333333%
+    }
+    .col.is-offset-10-sm {
+        margin-left: 83.3333333333%
+    }
+    .col.is-11-sm {
+        flex: none;
+        width: 91.6666666667%
+    }
+    .col.is-offset-11-sm {
+        margin-left: 91.6666666667%
+    }
+    .col.is-12-sm {
+        flex: none;
+        width: 100%
+    }
+    .col.is-offset-12-sm {
+        margin-left: 100%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .col.is-1-md {
+        flex: none;
+        width: 5%
+    }
+    .col.is-offset-1-md {
+        margin-left: 5%
+    }
+    .col.is-2-md {
+        flex: none;
+        width: 10%
+    }
+    .col.is-offset-2-md {
+        margin-left: 10%
+    }
+    .col.is-3-md {
+        flex: none;
+        width: 15%
+    }
+    .col.is-offset-3-md {
+        margin-left: 15%
+    }
+    .col.is-4-md {
+        flex: none;
+        width: 20%
+    }
+    .col.is-offset-4-md {
+        margin-left: 20%
+    }
+    .col.is-5-md {
+        flex: none;
+        width: 25%
+    }
+    .col.is-offset-5-md {
+        margin-left: 25%
+    }
+    .col.is-6-md {
+        flex: none;
+        width: 30%
+    }
+    .col.is-offset-6-md {
+        margin-left: 30%
+    }
+    .col.is-7-md {
+        flex: none;
+        width: 35%
+    }
+    .col.is-offset-7-md {
+        margin-left: 35%
+    }
+    .col.is-8-md {
+        flex: none;
+        width: 40%
+    }
+    .col.is-offset-8-md {
+        margin-left: 40%
+    }
+    .col.is-9-md {
+        flex: none;
+        width: 45%
+    }
+    .col.is-offset-9-md {
+        margin-left: 45%
+    }
+    .col.is-10-md {
+        flex: none;
+        width: 50%
+    }
+    .col.is-offset-10-md {
+        margin-left: 50%
+    }
+    .col.is-11-md {
+        flex: none;
+        width: 55%
+    }
+    .col.is-offset-11-md {
+        margin-left: 55%
+    }
+    .col.is-12-md {
+        flex: none;
+        width: 60%
+    }
+    .col.is-offset-12-md {
+        margin-left: 60%
+    }
+    .col.is-13-md {
+        flex: none;
+        width: 65%
+    }
+    .col.is-offset-13-md {
+        margin-left: 65%
+    }
+    .col.is-14-md {
+        flex: none;
+        width: 70%
+    }
+    .col.is-offset-14-md {
+        margin-left: 70%
+    }
+    .col.is-15-md {
+        flex: none;
+        width: 75%
+    }
+    .col.is-offset-15-md {
+        margin-left: 75%
+    }
+    .col.is-16-md {
+        flex: none;
+        width: 80%
+    }
+    .col.is-offset-16-md {
+        margin-left: 80%
+    }
+    .col.is-17-md {
+        flex: none;
+        width: 85%
+    }
+    .col.is-offset-17-md {
+        margin-left: 85%
+    }
+    .col.is-18-md {
+        flex: none;
+        width: 90%
+    }
+    .col.is-offset-18-md {
+        margin-left: 90%
+    }
+    .col.is-19-md {
+        flex: none;
+        width: 95%
+    }
+    .col.is-offset-19-md {
+        margin-left: 95%
+    }
+    .col.is-20-md {
+        flex: none;
+        width: 100%
+    }
+    .col.is-offset-20-md {
+        margin-left: 100%
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .col.is-1-lg {
+        flex: none;
+        width: 5%
+    }
+    .col.is-offset-1-lg {
+        margin-left: 8.3333333333%
+    }
+    .col.is-2-lg {
+        flex: none;
+        width: 10%
+    }
+    .col.is-offset-2-lg {
+        margin-left: 16.6666666667%
+    }
+    .col.is-3-lg {
+        flex: none;
+        width: 15%
+    }
+    .col.is-offset-3-lg {
+        margin-left: 25%
+    }
+    .col.is-4-lg {
+        flex: none;
+        width: 20%
+    }
+    .col.is-offset-4-lg {
+        margin-left: 33.3333333333%
+    }
+    .col.is-5-lg {
+        flex: none;
+        width: 25%
+    }
+    .col.is-offset-5-lg {
+        margin-left: 41.6666666667%
+    }
+    .col.is-6-lg {
+        flex: none;
+        width: 30%
+    }
+    .col.is-offset-6-lg {
+        margin-left: 50%
+    }
+    .col.is-7-lg {
+        flex: none;
+        width: 35%
+    }
+    .col.is-offset-7-lg {
+        margin-left: 58.3333333333%
+    }
+    .col.is-8-lg {
+        flex: none;
+        width: 40%
+    }
+    .col.is-offset-8-lg {
+        margin-left: 66.6666666667%
+    }
+    .col.is-9-lg {
+        flex: none;
+        width: 45%
+    }
+    .col.is-offset-9-lg {
+        margin-left: 75%
+    }
+    .col.is-10-lg {
+        flex: none;
+        width: 50%
+    }
+    .col.is-offset-10-lg {
+        margin-left: 83.3333333333%
+    }
+    .col.is-11-lg {
+        flex: none;
+        width: 55%
+    }
+    .col.is-offset-11-lg {
+        margin-left: 91.6666666667%
+    }
+    .col.is-12-lg {
+        flex: none;
+        width: 60%
+    }
+    .col.is-offset-12-lg {
+        margin-left: 100%
+    }
+    .col.is-13-lg {
+        flex: none;
+        width: 65%
+    }
+    .col.is-offset-13-lg {
+        margin-left: 108.3333333333%
+    }
+    .col.is-14-lg {
+        flex: none;
+        width: 70%
+    }
+    .col.is-offset-14-lg {
+        margin-left: 116.6666666667%
+    }
+    .col.is-15-lg {
+        flex: none;
+        width: 75%
+    }
+    .col.is-offset-15-lg {
+        margin-left: 125%
+    }
+    .col.is-16-lg {
+        flex: none;
+        width: 80%
+    }
+    .col.is-offset-16-lg {
+        margin-left: 133.3333333333%
+    }
+    .col.is-17-lg {
+        flex: none;
+        width: 85%
+    }
+    .col.is-offset-17-lg {
+        margin-left: 141.6666666667%
+    }
+    .col.is-18-lg {
+        flex: none;
+        width: 90%
+    }
+    .col.is-offset-18-lg {
+        margin-left: 150%
+    }
+    .col.is-19-lg {
+        flex: none;
+        width: 95%
+    }
+    .col.is-offset-19-lg {
+        margin-left: 158.3333333333%
+    }
+    .col.is-20-lg {
+        flex: none;
+        width: 100%
+    }
+    .col.is-offset-20-lg {
+        margin-left: 166.6666666667%
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .col.is-1-xl {
+        flex: none;
+        width: 5%
+    }
+    .col.is-offset-1-xl {
+        margin-left: 5%
+    }
+    .col.is-2-xl {
+        flex: none;
+        width: 10%
+    }
+    .col.is-offset-2-xl {
+        margin-left: 10%
+    }
+    .col.is-3-xl {
+        flex: none;
+        width: 15%
+    }
+    .col.is-offset-3-xl {
+        margin-left: 15%
+    }
+    .col.is-4-xl {
+        flex: none;
+        width: 20%
+    }
+    .col.is-offset-4-xl {
+        margin-left: 20%
+    }
+    .col.is-5-xl {
+        flex: none;
+        width: 25%
+    }
+    .col.is-offset-5-xl {
+        margin-left: 25%
+    }
+    .col.is-6-xl {
+        flex: none;
+        width: 30%
+    }
+    .col.is-offset-6-xl {
+        margin-left: 30%
+    }
+    .col.is-7-xl {
+        flex: none;
+        width: 35%
+    }
+    .col.is-offset-7-xl {
+        margin-left: 35%
+    }
+    .col.is-8-xl {
+        flex: none;
+        width: 40%
+    }
+    .col.is-offset-8-xl {
+        margin-left: 40%
+    }
+    .col.is-9-xl {
+        flex: none;
+        width: 45%
+    }
+    .col.is-offset-9-xl {
+        margin-left: 45%
+    }
+    .col.is-10-xl {
+        flex: none;
+        width: 50%
+    }
+    .col.is-offset-10-xl {
+        margin-left: 50%
+    }
+    .col.is-11-xl {
+        flex: none;
+        width: 55%
+    }
+    .col.is-offset-11-xl {
+        margin-left: 55%
+    }
+    .col.is-12-xl {
+        flex: none;
+        width: 60%
+    }
+    .col.is-offset-12-xl {
+        margin-left: 60%
+    }
+    .col.is-13-xl {
+        flex: none;
+        width: 65%
+    }
+    .col.is-offset-13-xl {
+        margin-left: 65%
+    }
+    .col.is-14-xl {
+        flex: none;
+        width: 70%
+    }
+    .col.is-offset-14-xl {
+        margin-left: 70%
+    }
+    .col.is-15-xl {
+        flex: none;
+        width: 75%
+    }
+    .col.is-offset-15-xl {
+        margin-left: 75%
+    }
+    .col.is-16-xl {
+        flex: none;
+        width: 80%
+    }
+    .col.is-offset-16-xl {
+        margin-left: 80%
+    }
+    .col.is-17-xl {
+        flex: none;
+        width: 85%
+    }
+    .col.is-offset-17-xl {
+        margin-left: 85%
+    }
+    .col.is-18-xl {
+        flex: none;
+        width: 90%
+    }
+    .col.is-offset-18-xl {
+        margin-left: 90%
+    }
+    .col.is-19-xl {
+        flex: none;
+        width: 95%
+    }
+    .col.is-offset-19-xl {
+        margin-left: 95%
+    }
+    .col.is-20-xl {
+        flex: none;
+        width: 100%
+    }
+    .col.is-offset-20-xl {
+        margin-left: 100%
+    }
+}
+
+.col img {
+    height: auto;
+    width: 100%
+}
+
+.text-align-center {
+    text-align: center
+}
+
+.hidden-touch {
+    display: none!important
+}
+
+@media screen and (min-width: 1025px) {
+    .hidden-touch {
+        display: block!important
+    }
+}
+
+.hidden-mobile {
+    display: none!important
+}
+
+@media screen and (min-width: 768px) {
+    .hidden-mobile {
+        display: block!important
+    }
+}
+
+.hidden-tablet {
+    display: none!important
+}
+
+@media screen and (min-width: 1025px) {
+    .hidden-tablet {
+        display: block!important
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hidden-desktop {
+        display: none!important
+    }
+}
+
+.container {
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 1180px;
+    padding: 0 2.5px;
+    width: 100%
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0 10px
+    }
+}
+
+@media screen and (min-width: calc(1180px + 20px 2)) {
+    .container {
+        padding: 0
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: utopia-std, sans-serif;
+    font-weight: 700
+}
+
+@media (-ms-high-contrast:none),
+screen and (-ms-high-contrast:active) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        line-height: 1.1
+    }
+}
+
+h1 {
+    font-size: 2em
+}
+
+h2 {
+    font-size: 1.5em
+}
+
+h3 {
+    font-size: 1.3em
+}
+
+h4 {
+    font-size: 1.125em
+}
+
+h5 {
+    font-size: .875em
+}
+
+li,
+li a,
+p,
+time,
+ul {
+    font-family: Lato, sans-serif;
+    font-size: 1em;
+    font-weight: 300
+}
+
+p {
+    font-weight: 400
+}
+
+a:hover {
+    color: #fff
+}
+
+label {
+    font-size: 14px;
+    font-family: utopia-std, sans-serif;
+    font-weight: 400;
+    color: #373737
+}
+
+p a {
+    text-decoration: underline
+}
+
+p a,
+p a:hover {
+    color: #008fd5
+}
+
+.overflow-hidden {
+    overflow: hidden
+}
+
+.load-hidden {
+    visibility: hidden
+}
+
+.position-relative {
+    position: relative
+}
+
+.position-absolute {
+    position: absolute
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url(../fonts/icomoon.eot?jw6et0);
+    src: url(../fonts/icomoon.eot?jw6et0#iefix) format("embedded-opentype"), url(../fonts/icomoon.ttf?jw6et0) format("truetype"), url(../fonts/icomoon.woff?jw6et0) format("woff"), url(../fonts/icomoon.svg?jw6et0#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-ico_home:before {
+    content: ""
+}
+
+.icon-ico_phone:before {
+    content: ""
+}
+
+.icon-ico_mobile:before {
+    content: ""
+}
+
+.icon-ico_user:before {
+    content: ""
+}
+
+.icon-youtube:before {
+    content: ""
+}
+
+.icon-linkedin:before {
+    content: ""
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    color: #333;
+    font-family: Lato, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100%
+}
+
+body .main {
+    background-color: #fff;
+    padding-bottom: 3em
+}
+
+hr {
+    border: 1px solid #cfcfcf;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 2em 0
+}
+
+.home .top-banner .ad {
+    margin: 2em 0 0
+}
+
+.home .top-banner .col {
+    padding-bottom: 0!important
+}
+
+.main {
+    padding: 4em 0
+}
+
+.main h1,
+.main p:first-of-type {
+    margin-top: 0
+}
+
+.main .newsletter-cta {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 2em
+}
+
+.main .newsletter-cta h3 {
+    margin-top: 0
+}
+
+.page .ad--banner,
+.single .ad--banner {
+    text-align: center
+}
+
+.single .main {
+    padding-top: 0
+}
+
+.single h1 {
+    line-height: 1.2
+}
+
+.single .mobile-banner {
+    display: block
+}
+
+@media screen and (min-width: 768px) {
+    .single .mobile-banner {
+        display: none
+    }
+}
+
+.single .banner-container {
+    text-align: center;
+    margin-bottom: 1em
+}
+
+@media screen and (min-width: 768px) {
+    .single .banner-container {
+        text-align: left
+    }
+    .single .article {
+        border-bottom: 1px solid #cfcfcf;
+        padding-bottom: 2em;
+        margin-bottom: .7em
+    }
+}
+
+.share p {
+    font-size: 12px;
+    color: #8b8b8b;
+    margin-bottom: 0;
+    display: block;
+    line-height: 1;
+    font-weight: 400
+}
+
+.share ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.share ul li {
+    display: inline-block;
+    line-height: 1
+}
+
+.share ul li a {
+    text-decoration: none;
+    display: inline-block
+}
+
+.share ul li a .dashicons,
+.share ul li a .icomoon {
+    background-color: #333;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 4px;
+    transition: all .3s ease-in-out;
+    width: 30px;
+    height: 30px
+}
+
+.share ul li a .icomoon {
+    display: inline-block;
+    vertical-align: top
+}
+
+.share ul li a:hover .dashicons,
+.share ul li a:hover .icomoon {
+    background-color: #000;
+    color: #777
+}
+
+.post-meta {
+    box-sizing: border-box;
+    height: 100%
+}
+
+.post-meta h1 {
+    display: block
+}
+
+@media screen and (min-width: 768px) {
+    .post-meta h1 {
+        display: none
+    }
+}
+
+.post-meta img {
+    margin-bottom: .5em;
+    display: block
+}
+
+.post-meta img.logo {
+    width: 60%;
+    height: auto
+}
+
+.post-meta p.current-category {
+    color: #e20613;
+    font-family: utopia-std, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    line-height: 36px;
+    margin-bottom: .2em
+}
+
+.post-meta p.oral-health-dental-hygiene-news {
+    color: #008fd5
+}
+
+.post-meta p.nhs-to-private {
+    color: #f8cd46
+}
+
+.post-meta p.dentistry-scotland {
+    color: #264e6f
+}
+
+.post-meta p.laboratory {
+    color: #33d2dd
+}
+
+.post-meta p.dental-implants-news {
+    color: #0065c8
+}
+
+.post-meta p.endodontic-dental-news {
+    color: #148a4d
+}
+
+.post-meta p.cosmetic-aesthetic-dental-news {
+    color: #ae0065
+}
+
+.post-meta p.orthodontic-dental-news {
+    color: #004b97
+}
+
+.post-meta p.private-dental-news {
+    color: #2f82d9
+}
+
+.post-meta p.undergraduate-dental-news {
+    color: #f46e00
+}
+
+.post-meta p.blog {
+    color: #d0323e
+}
+
+.post-meta__tags {
+    display: none;
+    font-size: 11px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5
+}
+
+@media screen and (min-width: 768px) {
+    .post-meta__tags {
+        margin-bottom: 20px
+    }
+}
+
+.post-meta__tags a {
+    color: #8b8b8b;
+    text-decoration: none
+}
+
+.post-meta__tags a:hover {
+    color: #585858;
+    text-decoration: underline
+}
+
+.post-meta__tags span {
+    color: #8b8b8b;
+    padding: 0 .2em
+}
+
+@media screen and (min-width: 768px) {
+    .post-meta__tags {
+        display: block;
+        padding-right: 30px
+    }
+}
+
+.post-meta p {
+    color: #1d1d1d;
+    font-family: Lato Black, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1.5
+}
+
+.post-meta__author-date-share {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #cfcfcf;
+    padding: .5em 0 1em;
+    margin-bottom: 1em
+}
+
+@media screen and (min-width: 768px) {
+    .post-meta__author-date-share {
+        display: block;
+        padding: 0;
+        margin-bottom: 0;
+        border-bottom: none
+    }
+}
+
+.post-meta__info {
+    width: 44%;
+    align-self: flex-end;
+    box-sizing: border-box
+}
+
+@media screen and (min-width: 768px) {
+    .post-meta__info {
+        width: 100%
+    }
+}
+
+.post-meta__info .author-image {
+    border: 1px solid #8b8b8b
+}
+
+.post-meta__info small,
+.post-meta__info time {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8b8b8b;
+    line-height: 1.2;
+    display: block
+}
+
+.post-meta__info small {
+    margin-top: 1em
+}
+
+@media screen and (min-width: 768px) {
+    .post-meta__info small {
+        margin-bottom: 1em
+    }
+}
+
+.post-meta__share {
+    width: 66%;
+    text-align: right
+}
+
+.post-meta__share .view-count {
+    font-family: Lato, sans-serif
+}
+
+.post-meta__share p {
+    display: none
+}
+
+@media screen and (min-width: 768px) {
+    .post-meta__share {
+        width: 100%;
+        text-align: left
+    }
+    .post-meta__share p {
+        color: #8b8b8b;
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-top: 1em
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .post-meta__share ul {
+        padding: 0 65px 0 0
+    }
+}
+
+.post-meta .mobile-meta {
+    display: block
+}
+
+@media screen and (min-width: 768px) {
+    .post-meta .mobile-meta {
+        display: none
+    }
+    .post-meta {
+        border-right: 1px solid #cfcfcf
+    }
+}
+
+.post-body {
+    display: block
+}
+
+@media screen and (min-width: 768px) {
+    .post-body {
+        display: flex;
+        flex-direction: row
+    }
+}
+
+.post-body__content {
+    width: 100%;
+    box-sizing: border-box
+}
+
+.post-body__content--post {
+    border-bottom: 1px solid #cfcfcf;
+    margin-bottom: 20px;
+    padding-bottom: 2em
+}
+
+.post-body__content--post h1 {
+    color: #1d1d1d;
+    margin-bottom: 13px
+}
+
+.post-body__content--post .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden
+}
+
+.post-body__content--post .video-container embed,
+.post-body__content--post .video-container iframe,
+.post-body__content--post .video-container object,
+.post-body__content--post .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.post-body__content--share {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #cfcfcf
+}
+
+.post-body__content--share p {
+    color: #555;
+    margin-bottom: .5em
+}
+
+@media screen and (min-width: 768px) {
+    .post-body__content--share {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border: none
+    }
+}
+
+.post-body__content h1 {
+    display: none
+}
+
+@media screen and (min-width: 768px) {
+    .post-body__content h1 {
+        display: block
+    }
+    .post-body__content {
+        width: 65%
+    }
+}
+
+.post-body__content .banner {
+    margin-top: 30px;
+    text-align: center
+}
+
+@media screen and (min-width: 768px) {
+    .post-body__content .banner {
+        text-align: left
+    }
+}
+
+.post-body figure {
+    width: 100%!important;
+    margin: 0
+}
+
+.post-body__most-popular {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-align: center
+}
+
+.post-body__most-popular .register {
+    background-color: #f6f6f6;
+    margin: 30px 0 0;
+    padding: 30px 20px
+}
+
+.post-body__most-popular .register h4 {
+    margin: 0 0 13px
+}
+
+.post-body__most-popular .register .button {
+    display: inline-block;
+    font-size: 16px;
+    padding: .5em 2em
+}
+
+@media screen and (min-width: 768px) {
+    .post-body__most-popular .register {
+        margin: 30px 0 0 20px
+    }
+    .post-body__most-popular {
+        width: 35%;
+        margin-left: 20px;
+        align-self: flex-start
+    }
+}
+
+.single-most-viewed h3:not(.post__title) {
+    margin-bottom: 0
+}
+
+.single-most-viewed h2 {
+    font-size: 24px
+}
+
+.single-most-viewed__half-banner {
+    text-align: center
+}
+
+.single-most-viewed-small {
+    display: none;
+    text-align: left
+}
+
+@media screen and (min-width: 768px) {
+    .single-most-viewed-small h3 {
+        margin: 30px 0 0 20px
+    }
+    .single-most-viewed-small {
+        display: block
+    }
+}
+
+.search-results h3 span {
+    color: #8b8b8b
+}
+
+.search-results .ad--banner {
+    text-align: center
+}
+
+.archive__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
+
+.archive__title h1 {
+    margin: 0
+}
+
+.archive__advert {
+    text-align: center
+}
+
+.archive__advert:first-of-type {
+    margin-top: 20px!important
+}
+
+.archive .archive-posts {
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 1em;
+    padding-top: 0
+}
+
+.archive .pagination {
+    text-align: right
+}
+
+.premium-dentistry {
+    background-color: #d0323e
+}
+
+.register {
+    padding: 4em 0
+}
+
+.register__logo img {
+    width: 70%
+}
+
+.register__container {
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 2px 10px 1px #656565;
+    margin-top: 4em
+}
+
+@media screen and (min-width: 768px) {
+    .register__container {
+        margin-top: 0
+    }
+}
+
+.register__side {
+    display: none
+}
+
+.register__side h1 {
+    font-size: 1.9rem!important
+}
+
+.register__side.active {
+    display: block
+}
+
+.register__side--container {
+    padding: 2em;
+    background-color: #d6d6d6;
+    margin-top: 2em;
+    margin-right: -1em
+}
+
+.register__side--logo {
+    margin: .3em 0 .2em;
+    display: block
+}
+
+.register__form {
+    display: none
+}
+
+.register__form.active {
+    display: block
+}
+
+.register__form form {
+    padding: 0 1em
+}
+
+.register__form form .gform_button {
+    background-color: #d0323e;
+    color: #fff;
+    transition: all .3s ease-in-out
+}
+
+.register__form form .gform_button:hover {
+    background-color: #de6e77;
+    text-decoration: underline
+}
+
+.register__form form .gfield_checkbox li input {
+    margin-top: 0!important
+}
+
+.register__login {
+    display: none
+}
+
+.register__login.active {
+    display: block
+}
+
+.register__login form {
+    padding: 4em 2em
+}
+
+.register__login form .login-password label,
+.register__login form .login-username label {
+    display: block;
+    font-weight: 700
+}
+
+.register__login form .login-password input,
+.register__login form .login-username input {
+    display: block;
+    width: 100%;
+    padding: .5em 1em;
+    box-sizing: border-box
+}
+
+.register__login form .login-submit input {
+    background-color: #d0323e;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    outline: 0;
+    border: none
+}
+
+.register__login form .login-submit input:hover {
+    background-color: #de6e77;
+    text-decoration: underline
+}
+
+.register__login-button,
+.register__register-button {
+    position: absolute;
+    right: 0;
+    top: -3.5em;
+    background-color: #fff;
+    opacity: .85;
+    color: grey;
+    padding: 1em 2em;
+    text-align: center;
+    background-color: #d3d3d3;
+    transition: all .3s ease-in-out
+}
+
+.register__login-button.active,
+.register__register-button.active {
+    background-color: #fff;
+    opacity: 1;
+    color: #d0323e;
+    transition: all .3s ease-in-out
+}
+
+.register__login-button:hover,
+.register__register-button:hover {
+    color: #da5b65;
+    background-color: #fff;
+    opacity: .95;
+    transition: all .3s ease-in-out
+}
+
+.register__login-button {
+    right: 7.5em
+}
+
+.login__side {
+    display: none
+}
+
+.login__side h1 {
+    font-size: 1.9rem!important
+}
+
+.login__side.active {
+    display: block
+}
+
+.fmc-events-cta {
+    background-color: #f6f6f6;
+    padding: 2em 1em 2.5em;
+    text-align: center
+}
+
+.fmc-events-cta h4 {
+    margin-top: 0
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0
+}
+
+.footer__top a,
+.footer__top li,
+.footer__top p {
+    font-size: 16px;
+    font-family: utopia-std, sans-serif;
+    color: #fff
+}
+
+.footer__top ul {
+    margin: 0;
+    padding: 1em 0;
+    list-style: none
+}
+
+.footer__top ul li {
+    display: block;
+    line-height: 2
+}
+
+.footer__top ul li span {
+    font-size: 1.1em
+}
+
+.footer__top ul a {
+    display: inline-block;
+    text-decoration: none;
+    transition: -webkit-text-decoration .3s ease-in-out;
+    transition: text-decoration .3s ease-in-out;
+    transition: text-decoration .3s ease-in-out, -webkit-text-decoration .3s ease-in-out
+}
+
+.footer__top ul a:hover {
+    text-decoration: underline
+}
+
+.footer__top--dod img {
+    margin: 1em 0
+}
+
+.footer__social {
+    display: flex
+}
+
+@media screen and (min-width: 768px) {
+    .footer__social {
+        display: block
+    }
+}
+
+.footer__social--icons,
+.footer__social--newsletter {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 1em 0
+}
+
+@media screen and (min-width: 768px) {
+    .footer__social--icons,
+    .footer__social--newsletter {
+        width: auto
+    }
+}
+
+.footer__social--newsletter {
+    padding: 0 2.5px 0 0
+}
+
+.footer__social--newsletter ul {
+    padding: 0
+}
+
+.footer__social--newsletter ul li {
+    line-height: 1.2
+}
+
+.footer__social--icons {
+    padding: 0
+}
+
+.footer__social--icons p {
+    margin: 0 0 .5em
+}
+
+.footer__social--icons a {
+    background-color: #e20613;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color .3s ease-in-out;
+    line-height: 1
+}
+
+.footer__social--icons a span {
+    color: #fff;
+    transition: color .3s ease-in-out
+}
+
+.footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+.footer__social--icons a:hover span {
+    color: #e20613
+}
+
+.footer__bottom {
+    font-size: 12px;
+    padding: 1em 0
+}
+
+.footer__bottom a,
+.footer__bottom li,
+.footer__bottom p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    font-family: utopia-std, sans-serif
+}
+
+@media screen and (min-width: 768px) {
+    .footer__bottom p {
+        text-align: right;
+        margin-top: 0
+    }
+}
+
+.footer__bottom ul {
+    margin: 0 0 .5em;
+    padding: 0;
+    list-style: none
+}
+
+.footer__bottom ul li {
+    display: inline-block
+}
+
+.footer__bottom ul li:after {
+    content: "|";
+    padding: 0 .5em 0 .8em
+}
+
+.footer__bottom ul li:last-of-type:after {
+    content: "";
+    padding: 0
+}
+
+.footer__bottom ul li a {
+    text-decoration: none;
+    border-bottom: 2px solid #333
+}
+
+.footer__bottom ul li a:hover {
+    text-decoration: underline
+}
+
+body.category-oral-health-dental-hygiene-news .footer__social--icons a {
+    background-color: #008fd5
+}
+
+body.category-oral-health-dental-hygiene-news .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-oral-health-dental-hygiene-news .footer__social--icons a:hover span {
+    color: #008fd5
+}
+
+body.category-nhs-to-private .footer__social--icons a {
+    background-color: #f8cd46
+}
+
+body.category-nhs-to-private .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-nhs-to-private .footer__social--icons a:hover span {
+    color: #f8cd46
+}
+
+body.category-dentistry-scotland .footer__social--icons a {
+    background-color: #264e6f
+}
+
+body.category-dentistry-scotland .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-dentistry-scotland .footer__social--icons a:hover span {
+    color: #264e6f
+}
+
+body.category-private-dental-news .footer__social--icons a {
+    background-color: #2f82d9
+}
+
+body.category-private-dental-news .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-private-dental-news .footer__social--icons a:hover span {
+    color: #2f82d9
+}
+
+body.category-blog .footer__social--icons a {
+    background-color: #d0323e
+}
+
+body.category-blog .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-blog .footer__social--icons a:hover span {
+    color: #d0323e
+}
+
+body.category-laboratory .footer__social--icons a {
+    background-color: #33d2dd
+}
+
+body.category-laboratory .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-laboratory .footer__social--icons a:hover span {
+    color: #33d2dd
+}
+
+body.category-dental-implants-news .footer__social--icons a {
+    background-color: #0065c8
+}
+
+body.category-dental-implants-news .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-dental-implants-news .footer__social--icons a:hover span {
+    color: #0065c8
+}
+
+body.category-endodontic-dental-news .footer__social--icons a {
+    background-color: #148a4d
+}
+
+body.category-endodontic-dental-news .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-endodontic-dental-news .footer__social--icons a:hover span {
+    color: #148a4d
+}
+
+body.category-cosmetic-aesthetic-dental-news .footer__social--icons a {
+    background-color: #ae0065
+}
+
+body.category-cosmetic-aesthetic-dental-news .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-cosmetic-aesthetic-dental-news .footer__social--icons a:hover span {
+    color: #ae0065
+}
+
+body.category-orthodontic-dental-news .footer__social--icons a {
+    background-color: #004b97
+}
+
+body.category-orthodontic-dental-news .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-orthodontic-dental-news .footer__social--icons a:hover span {
+    color: #004b97
+}
+
+body.category-undergraduate-dental-news .footer__social--icons a {
+    background-color: #f46e00
+}
+
+body.category-undergraduate-dental-news .footer__social--icons a:hover {
+    background-color: #1a1a1a
+}
+
+body.category-undergraduate-dental-news .footer__social--icons a:hover span {
+    color: #f46e00
+}
+
+.button {
+    padding: .8em 2em;
+    background-color: #e20613;
+    display: inline-block;
+    color: #fff;
+    font-family: utopia-std, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px
+}
+
+.button,
+.home .ad {
+    text-align: center
+}
+
+.latest-news .mpu-container {
+    flex-direction: column
+}
+
+.latest-news .mpu-container .ad--mpu {
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 0
+}
+
+.banner-container,
+.latest-news .mpu-container .ad--mpu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f6f6f6
+}
+
+.banner-container {
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden
+}
+
+.main .gform_wrapper,
+.main .gform_wrapper ul li.gfield:first-of-type {
+    margin-top: 0
+}
+
+.main ul.contact-information {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.main ul.contact-information li {
+    font-weight: 700;
+    margin-bottom: .5em
+}
+
+.main ul.contact-information li:last-of-type {
+    margin-bottom: 0
+}
+
+.main ul.contact-information li span {
+    background-color: #e20613;
+    color: #fff;
+    border-radius: 30px;
+    padding: 4px;
+    margin-right: .5em
+}
+
+.main ul.contact-information li a {
+    font-weight: 700;
+    font-family: utopia-std, sans-serif;
+    color: #1d1d1d;
+    text-decoration: none;
+    font-size: 1.11em
+}
+
+.main ul.contact-information li a:hover {
+    text-decoration: underline;
+    color: #2a2a2a
+}
+
+.gform_wrapper ul li.gfield input,
+.gform_wrapper ul li.gfield textarea {
+    width: 100%!important;
+    background-color: #f6f6f6;
+    border: none;
+    outline: none;
+    padding: 10px 15px!important;
+    color: #777!important
+}
+
+.gform_wrapper ul li.gfield label {
+    font-size: 14px;
+    font-family: utopia-std, sans-serif;
+    font-weight: 400;
+    color: #373737
+}
+
+.gform_wrapper ul li.gfield .ginput_container_consent input {
+    width: auto!important
+}
+
+.gform_wrapper .gform_footer {
+    text-align: center
+}
+
+.gform_wrapper .gform_footer input[type=submit] {
+    border: none;
+    outline: none;
+    background-color: #e20613;
+    color: #fff;
+    padding: .6em 3em;
+    transition: all .3s ease-in-out;
+    font-family: utopia-std, sans-serif
+}
+
+.gform_wrapper .gform_footer input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #c90511;
+    color: #f2f2f2
+}
+
+.category-block {
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0
+}
+
+.category-block__read-more {
+    display: flex;
+    flex-direction: row
+}
+
+@media screen and (min-width: 768px) {
+    .category-block__read-more {
+        display: block;
+        padding-bottom: 12px
+    }
+}
+
+.category-block__read-more h3 {
+    color: #e20613;
+    font-weight: 700;
+    width: 50%
+}
+
+.category-block__read-more h3.oral-health-dental-hygiene-news {
+    color: #008fd5
+}
+
+.category-block__read-more h3.nhs-to-private {
+    color: #f8cd46
+}
+
+.category-block__read-more h3.dentistry-scotland {
+    color: #264e6f
+}
+
+.category-block__read-more h3.laboratory {
+    color: #33d2dd
+}
+
+.category-block__read-more h3.dental-implants-news {
+    color: #0065c8
+}
+
+.category-block__read-more h3.endodontic-dental-news {
+    color: #148a4d
+}
+
+.category-block__read-more h3.cosmetic-aesthetic-dental-news {
+    color: #ae0065
+}
+
+.category-block__read-more h3.orthodontic-dental-news {
+    color: #004b97
+}
+
+.category-block__read-more h3.private-dental-news {
+    color: #2f82d9
+}
+
+.category-block__read-more h3.undergraduate-dental-news {
+    color: #f46e00
+}
+
+.category-block__read-more h3.blog {
+    color: #d0323e
+}
+
+@media screen and (min-width: 768px) {
+    .category-block__read-more h3 {
+        width: 100%;
+        margin: 0
+    }
+}
+
+.category-block__read-more a {
+    color: #8b8b8b;
+    font-family: Lato, sans-serif;
+    font-size: .8em;
+    display: block;
+    text-align: right;
+    align-self: center;
+    width: 50%;
+    font-weight: 700;
+    text-decoration: none
+}
+
+@media screen and (min-width: 768px) {
+    .category-block__read-more a {
+        display: none
+    }
+}
+
+.category-block__posts {
+    display: flex;
+    flex-direction: column
+}
+
+@media screen and (min-width: 1025px) {
+    .category-block__posts .mpu-container {
+        margin: 0 60px 30px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .category-block__posts {
+        flex-direction: row
+    }
+}
+
+.comments {
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 2em
+}
+
+@media screen and (min-width: 768px) {
+    .comments h3 {
+        margin-top: 0
+    }
+}
+
+.comments h3 span {
+    color: #8b8b8b
+}
+
+.comment-list .comment {
+    padding: 1em;
+    background-color: #f6f6f6;
+    margin-bottom: .5em
+}
+
+.comment-list .comment.parent .comment-body {
+    margin-bottom: 1em
+}
+
+.comment-list .comment.depth-2,
+.comment-list .comment.depth-3,
+.comment-list .comment.depth-4 {
+    padding: .8em 0 .8em .8em;
+    border-left: 1px solid #cfcfcf
+}
+
+.comment-list .comment.depth-2:last-of-type,
+.comment-list .comment.depth-3:last-of-type,
+.comment-list .comment.depth-4:last-of-type {
+    padding-bottom: 0
+}
+
+.comment-list .comment-meta {
+    display: flex;
+    flex-direction: row
+}
+
+@media screen and (min-width: 768px) {
+    .comment-list .comment-meta {
+        margin-bottom: .5em
+    }
+}
+
+.comment-list .comment-meta .comment-author {
+    width: 40%
+}
+
+.comment-list .comment-meta .comment-author img {
+    width: 25px;
+    height: auto;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.comment-list .comment-meta .comment-author b,
+.comment-list .comment-meta .comment-author span {
+    display: inline-block;
+    font-size: 13px
+}
+
+@media screen and (min-width: 768px) {
+    .comment-list .comment-meta .comment-author b,
+    .comment-list .comment-meta .comment-author span {
+        font-size: 16px
+    }
+}
+
+.comment-list .comment-meta .comment-author b a {
+    color: #1d1d1d;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.comment-list .comment-meta .comment-metadata {
+    width: 60%;
+    text-align: right
+}
+
+.comment-list .comment-meta .comment-metadata a {
+    font-size: 12px;
+    color: #8b8b8b;
+    font-weight: 400;
+    text-decoration: none
+}
+
+@media screen and (min-width: 768px) {
+    .comment-list .comment-meta .comment-metadata a {
+        font-size: 16px
+    }
+}
+
+.comment-list .comment-meta .comment-metadata a time {
+    font-weight: 400
+}
+
+.comment-list .comment-meta .comment-metadata a .edit-link:hover {
+    text-decoration: underline
+}
+
+.comment-list .comment-content {
+    font-size: 14px
+}
+
+@media screen and (min-width: 768px) {
+    .comment-list .comment-content {
+        font-size: 15px
+    }
+}
+
+.comment-list .comment-content p:last-of-type {
+    margin-bottom: 0
+}
+
+.comment-list .reply a {
+    color: #8b8b8b;
+    font-size: 14px;
+    font-family: utopia-std, sans-serif
+}
+
+.comment-respond {
+    padding: 1em;
+    background-color: #f6f6f6
+}
+
+.comment-respond h3 {
+    margin: 0;
+    color: #1d1d1d;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.5px
+}
+
+.comment-respond p.logged-in-as a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #373737;
+    font-family: utopia-std, sans-serif
+}
+
+.comment-respond p.logged-in-as a+a {
+    text-decoration: underline
+}
+
+.comment-respond .comment-form-comment {
+    margin-bottom: .2em
+}
+
+.comment-respond .comment-form-comment label {
+    display: none
+}
+
+.comment-respond .comment-form-comment textarea {
+    width: 100%;
+    box-sizing: border-box
+}
+
+.comment-respond .form-submit {
+    text-align: center;
+    margin: 0
+}
+
+@media screen and (min-width: 768px) {
+    .comment-respond .form-submit {
+        text-align: right
+    }
+}
+
+.comment-respond .form-submit input[type=submit] {
+    outline: 0;
+    border: none;
+    background-color: #e20613;
+    color: #fff;
+    padding: .8em 1.2em;
+    font-family: utopia-std, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700
+}
+
+.advanced-search .form-group__date,
+.advanced-search .form-group__search,
+.advanced-search .form-group__select,
+.advanced-search .form-group__submit {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.advanced-search .form-group__date input,
+.advanced-search .form-group__date select,
+.advanced-search .form-group__search input,
+.advanced-search .form-group__search select,
+.advanced-search .form-group__select input,
+.advanced-search .form-group__select select,
+.advanced-search .form-group__submit input,
+.advanced-search .form-group__submit select {
+    padding: .8em 1em;
+    background-color: #f6f6f6;
+    border: none;
+    outline: none;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    border-radius: 0;
+    color: #1d1d1d
+}
+
+.advanced-search .form-group__date input[type=date] {
+    text-transform: uppercase;
+    padding-right: .5em;
+    color: #8b8b8b
+}
+
+.advanced-search .form-group__date input[type=date]::-webkit-calendar-picker-indicator,
+.advanced-search .form-group__date input[type=date]::-webkit-inner-spin-button {
+    display: none
+}
+
+.advanced-search .form-group__select label,
+.advanced-search .form-group__select select {
+    flex: 1 0 auto
+}
+
+.advanced-search .form-group__select select {
+    -webkit-appearance: none;
+    color: #8b8b8b
+}
+
+.advanced-search .form-group__submit {
+    justify-content: flex-end
+}
+
+.advanced-search .form-group__submit input[type=submit] {
+    background-color: #e20613;
+    color: #fff;
+    font-family: utopia-std, sans-serif;
+    text-align: center;
+    font-weight: 700
+}
+
+.pagination-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto
+}
+
+.pagination-navigation ul li {
+    display: inline-block
+}
+
+.pagination-navigation ul li a {
+    text-decoration: none;
+    background-color: #f6f6f6;
+    color: #1d1d1d;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    transition: all .3s ease-in-out
+}
+
+.pagination-navigation ul li.active a,
+.pagination-navigation ul li a:hover {
+    background-color: #e20613;
+    color: #fff
+}
+
+.category-oral-health-dental-hygiene-news .pagination-navigation a:hover,
+.category-oral-health-dental-hygiene-news .pagination-navigation li.active a {
+    background-color: #008fd5
+}
+
+.category-private-dental-news .pagination-navigation a:hover,
+.category-private-dental-news .pagination-navigation li.active a {
+    background-color: #2f82d9
+}
+
+.category-blog .pagination-navigation a:hover,
+.category-blog .pagination-navigation li.active a {
+    background-color: #d0323e
+}
+
+.category-laboratory .pagination-navigation a:hover,
+.category-laboratory .pagination-navigation li.active a {
+    background-color: #33d2dd
+}
+
+.category-dental-implants-news .pagination-navigation a:hover,
+.category-dental-implants-news .pagination-navigation li.active a {
+    background-color: #0065c8
+}
+
+.category-endodontic-dental-news .pagination-navigation a:hover,
+.category-endodontic-dental-news .pagination-navigation li.active a {
+    background-color: #148a4d
+}
+
+.category-cosmetic-aesthetic-dental-news .pagination-navigation a:hover,
+.category-cosmetic-aesthetic-dental-news .pagination-navigation li.active a {
+    background-color: #ae0065
+}
+
+.category-orthodontic-dental-news .pagination-navigation a:hover,
+.category-orthodontic-dental-news .pagination-navigation li.active a {
+    background-color: #004b97
+}
+
+.category-undergraduate-dental-news .pagination-navigation a:hover,
+.category-undergraduate-dental-news .pagination-navigation li.active a {
+    background-color: #f46e00
+}
+
+.pagination {
+    text-align: right
+}
+
+.free-wall-cta {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2em;
+    background-color: #f6f6f6;
+    text-align: center
+}
+
+.free-wall-cta h3 {
+    margin: 0 0 10px
+}
+
+.free-wall-cta p {
+    margin: 0 0 10px;
+    font-weight: 400
+}
+
+.free-wall-cta__text-button {
+    font-size: 14px;
+    color: #1d1d1d;
+    font-family: utopia-std, sans-serif
+}
+
+.free-wall-cta__text-button:hover {
+    text-decoration: none;
+    color: #1d1d1d
+}
+
+.free-wall-cta__button {
+    display: block;
+    font-size: 16px;
+    background-color: #e20613;
+    font-family: utopia-std, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    width: 140px;
+    padding: .5em 0;
+    margin: 0 auto .5em;
+    text-decoration: none
+}
+
+.free-wall-cta__button:hover {
+    background-color: #c90511
+}
+
+.free-wall-excerpt {
+    position: relative;
+    overflow: hidden
+}
+
+.free-wall-excerpt__opacity-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0;
+    background-image: linear-gradient(180deg, transparent, #fff)
+}
+
+.dfp {
+    text-align: center;
+    width: 100%
+}
+
+.dfp__medium-rectangle {
+    padding: 4px 0
+}
+
+.dfp__medium-rectangle div {
+    margin: 0 auto
+}
+
+.dfp__leaderboard {
+    overflow: auto
+}
+
+.dfp__leaderboard--footer,
+.dfp__leaderboard--header {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.dfp__leaderboard iframe {
+    margin: 0 auto
+}
+
+.mpu-container {
+    flex-direction: column
+}
+
+.mpu-container .dfp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    width: 100%;
+    margin: 0;
+    background-color: #f6f6f6
+}
+
+.pum .pum-container .pum-content p {
+    margin: 0
+}
+
+.pum .pum-container .pum-content img {
+    display: block
+}
+
+.pum .pum-container .pum-content iframe {
+    margin: 0;
+    padding: 0;
+    display: block
+}
+
+.latest-news {
+    padding: 3em 0;
+    border-bottom: 1px solid #cfcfcf
+}
+
+.latest-news .col {
+    display: flex
+}
+
+@media (-ms-high-contrast:none),
+screen and (-ms-high-contrast:active) {
+    .latest-news .col {
+        display: block
+    }
+}
+
+.latest-news .col.latest-news_main {
+    flex-direction: column
+}
+
+.latest-news .col.latest-news_sidebar h2 {
+    font-size: 24px;
+    margin: 0
+}
+
+.latest-news .col.latest-news_sidebar .most-popular_post:not(:last-child),
+.latest-news .col.latest-news_sidebar .mpu {
+    margin: 0 0 15px
+}
+
+@media screen and (min-width: 768px) {
+    .latest-news .col.latest-news_sidebar .most-popular_post:not(:last-child),
+    .latest-news .col.latest-news_sidebar .mpu {
+        padding: 0 5px 20px;
+        margin: 0
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .latest-news .col.latest-news_sidebar .most-popular_post:not(:last-child),
+    .latest-news .col.latest-news_sidebar .mpu {
+        padding: 0 10px 20px
+    }
+}
+
+.latest-news.top-block {
+    padding: 10px 0 3em
+}
+
+@media screen and (min-width: 768px) {
+    .latest-news.top-block {
+        padding: 0 0 3em
+    }
+    .latest-news.category-block {
+        padding: 30px 0 0
+    }
+}
+
+.latest-news__sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2em
+}
+
+@media screen and (min-width: 768px) {
+    .latest-news__sidebar {
+        margin-bottom: 0
+    }
+}
+
+.latest-news__sidebar--title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em
+}
+
+@media screen and (min-width: 768px) {
+    .latest-news__sidebar--title {
+        display: block;
+        margin-bottom: 0
+    }
+}
+
+.latest-news__sidebar--title h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #e20613
+}
+
+.latest-news__sidebar--title h2.oral-health-dental-hygiene-news {
+    color: #008fd5
+}
+
+.latest-news__sidebar--title h2.laboratory {
+    color: #33d2dd
+}
+
+.latest-news__sidebar--title h2.dental-implants-news {
+    color: #0065c8
+}
+
+.latest-news__sidebar--title h2.endodontic-dental-news {
+    color: #148a4d
+}
+
+.latest-news__sidebar--title h2.cosmetic-aesthetic-dental-news {
+    color: #ae0065
+}
+
+.latest-news__sidebar--title h2.orthodontic-dental-news {
+    color: #004b97
+}
+
+.latest-news__sidebar--title h2.private-dental-news {
+    color: #2f82d9
+}
+
+.latest-news__sidebar--title h2.undergraduate-dental-news {
+    color: #f46e00
+}
+
+.latest-news__sidebar--title h2.blog {
+    color: #d0323e
+}
+
+.latest-news__sidebar--title a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #8b8b8b;
+    font-family: Lato, sans-serif;
+    text-decoration: none
+}
+
+.latest-news__sidebar--title a:hover {
+    text-decoration: underline
+}
+
+@media screen and (min-width: 768px) {
+    .latest-news__sidebar .register-cta {
+        margin-bottom: 20px
+    }
+}
+
+.latest-news__two-cols--stand-alone-article {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+.latest-news__two-rows--banner .banner-container {
+    margin-top: 20px
+}
+
+@media screen and (min-width: 768px) {
+    .latest-news__two-rows--banner .banner-container {
+        margin-top: 0
+    }
+    .latest-news .featured-posts_top {
+        margin-bottom: 20px
+    }
+    .latest-news .featured-posts_latest .col {
+        width: 33.33%
+    }
+}
+
+.latest-news .featured-posts_divider {
+    border-top: 0;
+    margin: 0!important
+}
+
+@media screen and (min-width: 768px) {
+    .latest-news .featured-posts_divider {
+        border-top: 1px solid #cfcfcf
+    }
+    .latest-news .featured_posts_category .col:not(.read-more) {
+        width: 33.33%
+    }
+}
+
+.latest-news .featured_posts_category .read-more {
+    margin: 0!important;
+    padding: 37px 10px 20px!important
+}
+
+@media screen and (max-width: 768px) {
+    .latest-news .featured_posts_category .read-more {
+        justify-content: space-between
+    }
+}
+
+.latest-news .featured_posts_category .read-more h3 {
+    color: #e20613;
+    margin: 0
+}
+
+.latest-news .featured_posts_category .read-more a {
+    align-self: center;
+    color: #8b8b8b;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-decoration: none
+}
+
+.latest-news .featured_posts_category .read-more a:hover {
+    text-decoration: underline
+}
+
+@media screen and (min-width: 768px) {
+    .latest-news .featured_posts_category .read-more a {
+        display: none
+    }
+}
+
+.latest-news .featured-posts_cta {
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0!important;
+    padding: 30px 0 40px;
+    text-align: center
+}
+
+.latest-news .featured-posts_cta h4 {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.latest-news .featured-posts_cta a {
+    background: #e20613;
+    color: #fff;
+    padding: .8em .5em;
+    width: 40%
+}
+
+@media screen and (min-width: 1025px) {
+    .latest-news .featured-posts_cta a {
+        width: 20%
+    }
+}
+
+.category-oral-health-dental-hygiene-news .freewall__post svg g {
+    fill: #008fd5
+}
+
+.category-private-dental-news .freewall__post svg g {
+    fill: #2f82d9
+}
+
+.category-blog .freewall__post svg g {
+    fill: #d0323e
+}
+
+.category-laboratory .freewall__post svg g {
+    fill: #33d2dd
+}
+
+.category-dental-implants-news .freewall__post svg g {
+    fill: #0065c8
+}
+
+.category-endodontic-dental-news .freewall__post svg g {
+    fill: #148a4d
+}
+
+.category-cosmetic-aesthetic-dental-news .freewall__post svg g {
+    fill: #ae0065
+}
+
+.category-orthodontic-dental-news .freewall__post svg g {
+    fill: #004b97
+}
+
+.category-undergraduate-dental-news .freewall__post svg g {
+    fill: #f46e00
+}
+
+section.featured_archive_block {
+    background-color: #f6f6f6;
+    margin-top: 35px
+}
+
+section .latest-news.featured-archive-block {
+    border: 0
+}
+
+section .latest-news.featured-archive-block .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px
+}
+
+section .latest-news.featured-archive-block .title h3 {
+    margin: 0 0 20px
+}
+
+section .latest-news.featured-archive-block .title a {
+    color: #8b8b8b;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-decoration: none
+}
+
+section .latest-news.featured-archive-block .title a:hover {
+    text-decoration: underline
+}
+
+@media screen and (min-width: 768px) {
+    section .latest-news.featured-archive-block .title a {
+        display: none
+    }
+}
+
+section .latest-news.featured-archive-block .posts {
+    flex-wrap: wrap
+}
+
+@media screen and (min-width: 768px) {
+    section .latest-news.featured-archive-block .posts {
+        padding: 0 10px 0 0
+    }
+}
+
+section .latest-news.featured-archive-block .posts .col {
+    margin: 0 0 15px
+}
+
+@media screen and (min-width: 768px) {
+    section .latest-news.featured-archive-block .posts .col {
+        margin: 0
+    }
+}
+
+section .latest-news.featured-archive-block .posts .col a {
+    background-color: #fff
+}
+
+section .latest-news.featured-archive-block .posts .post__thumbnail {
+    position: relative
+}
+
+section .latest-news.featured-archive-block .posts .post__thumbnail svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%
+}
+
+section .latest-news.featured-archive-block .newsletter_cta {
+    flex-direction: column
+}
+
+section .latest-news.featured-archive-block .newsletter_cta .newsletter-cta-tile {
+    background-color: #fff
+}
+
+section .latest-news.featured-archive-block .newsletter_cta .button {
+    box-sizing: border-box;
+    padding: .8em 1em;
+    width: 100%
+}
+
+section .latest-news.featured-archive-block .view_more_button {
+    display: none
+}
+
+@media screen and (min-width: 768px) {
+    section .latest-news.featured-archive-block .view_more_button {
+        display: block;
+        padding: 10px 10px 20px
+    }
+}
+
+.register-cta {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 1.5em
+}
+
+.register-cta h4 {
+    margin: 0;
+    font-weight: 700
+}
+
+.register-cta a:not(.button) {
+    color: #1d1d1d;
+    text-decoration: underline;
+    display: block;
+    font-size: 14px;
+    padding: 0;
+    line-height: 1
+}
+
+.register-cta a.button {
+    display: block;
+    margin: .75em 0
+}
+
+.classified,
+.company,
+.event,
+.job,
+.podcast,
+.post {
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #e20613;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 100%;
+    overflow: hidden;
+    text-decoration: none
+}
+
+@media (-ms-high-contrast:none),
+screen and (-ms-high-contrast:active) {
+    .classified,
+    .company,
+    .event,
+    .job,
+    .podcast,
+    .post {
+        display: block
+    }
+}
+
+.classified a,
+.classified p,
+.company a,
+.company p,
+.event a,
+.event p,
+.job a,
+.job p,
+.podcast a,
+.podcast p,
+.post a,
+.post p {
+    color: #333;
+    margin: 0;
+    text-decoration: none
+}
+
+.classified__preview-wrapper,
+.company__preview-wrapper,
+.event__preview-wrapper,
+.job__preview-wrapper,
+.podcast__preview-wrapper,
+.post__preview-wrapper {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 8px;
+    width: 60%
+}
+
+@media screen and (min-width: 768px) {
+    .classified__preview-wrapper,
+    .company__preview-wrapper,
+    .event__preview-wrapper,
+    .job__preview-wrapper,
+    .podcast__preview-wrapper,
+    .post__preview-wrapper {
+        width: 100%
+    }
+}
+
+.classified__title,
+.company__title,
+.event__title,
+.job__title,
+.podcast__title,
+.post__title {
+    color: #1d1d1d;
+    font-size: 16px;
+    line-height: 19px;
+    flex: 1 0 auto;
+    margin: 0
+}
+
+@media screen and (min-width: 768px) {
+    .classified__title,
+    .company__title,
+    .event__title,
+    .job__title,
+    .podcast__title,
+    .post__title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 1em
+    }
+}
+
+.classified__meta,
+.company__meta,
+.event__meta,
+.job__meta,
+.podcast__meta,
+.post__meta {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap
+}
+
+.classified__meta.freewall__post,
+.company__meta.freewall__post,
+.event__meta.freewall__post,
+.job__meta.freewall__post,
+.podcast__meta.freewall__post,
+.post__meta.freewall__post {
+    justify-content: space-between
+}
+
+.classified__meta-date,
+.classified__meta time,
+.company__meta-date,
+.company__meta time,
+.event__meta-date,
+.event__meta time,
+.job__meta-date,
+.job__meta time,
+.podcast__meta-date,
+.podcast__meta time,
+.post__meta-date,
+.post__meta time {
+    font-size: 10px;
+    color: #8b8b8b;
+    display: inline-block;
+    line-height: 1;
+    font-family: utopia-std, sans-serif
+}
+
+@media screen and (min-width: 768px) {
+    .classified__meta-date,
+    .classified__meta time,
+    .company__meta-date,
+    .company__meta time,
+    .event__meta-date,
+    .event__meta time,
+    .job__meta-date,
+    .job__meta time,
+    .podcast__meta-date,
+    .podcast__meta time,
+    .post__meta-date,
+    .post__meta time {
+        font-size: 12px
+    }
+}
+
+.classified__meta-date span,
+.classified__meta time span,
+.company__meta-date span,
+.company__meta time span,
+.event__meta-date span,
+.event__meta time span,
+.job__meta-date span,
+.job__meta time span,
+.podcast__meta-date span,
+.podcast__meta time span,
+.post__meta-date span,
+.post__meta time span {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 5px
+}
+
+@media screen and (min-width: 768px) {
+    .classified__meta-date span,
+    .classified__meta time span,
+    .company__meta-date span,
+    .company__meta time span,
+    .event__meta-date span,
+    .event__meta time span,
+    .job__meta-date span,
+    .job__meta time span,
+    .podcast__meta-date span,
+    .podcast__meta time span,
+    .post__meta-date span,
+    .post__meta time span {
+        vertical-align: none
+    }
+}
+
+.classified__meta time:not(.no_divider):after,
+.company__meta time:not(.no_divider):after,
+.event__meta time:not(.no_divider):after,
+.job__meta time:not(.no_divider):after,
+.podcast__meta time:not(.no_divider):after,
+.post__meta time:not(.no_divider):after {
+    content: "|";
+    padding: 0 .5em
+}
+
+.classified__meta ul,
+.company__meta ul,
+.event__meta ul,
+.job__meta ul,
+.podcast__meta ul,
+.post__meta ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1
+}
+
+.classified__meta ul li,
+.company__meta ul li,
+.event__meta ul li,
+.job__meta ul li,
+.podcast__meta ul li,
+.post__meta ul li {
+    display: none
+}
+
+.classified__meta ul li:first-of-type,
+.company__meta ul li:first-of-type,
+.event__meta ul li:first-of-type,
+.job__meta ul li:first-of-type,
+.podcast__meta ul li:first-of-type,
+.post__meta ul li:first-of-type {
+    display: inline-block
+}
+
+.classified__meta a,
+.company__meta a,
+.event__meta a,
+.job__meta a,
+.podcast__meta a,
+.post__meta a {
+    color: #e20613;
+    font-size: 10px;
+    font-family: utopia-std, sans-serif
+}
+
+@media screen and (min-width: 768px) {
+    .classified__meta a,
+    .company__meta a,
+    .event__meta a,
+    .job__meta a,
+    .podcast__meta a,
+    .post__meta a {
+        font-size: 12px
+    }
+}
+
+.classified__meta a:hover,
+.company__meta a:hover,
+.event__meta a:hover,
+.job__meta a:hover,
+.podcast__meta a:hover,
+.post__meta a:hover {
+    text-decoration: underline
+}
+
+.classified__meta--sponsored,
+.company__meta--sponsored,
+.event__meta--sponsored,
+.job__meta--sponsored,
+.podcast__meta--sponsored,
+.post__meta--sponsored {
+    color: #8b8b8b;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: utopia-std, sans-serif
+}
+
+@media screen and (min-width: 768px) {
+    .classified__meta--sponsored,
+    .company__meta--sponsored,
+    .event__meta--sponsored,
+    .job__meta--sponsored,
+    .podcast__meta--sponsored,
+    .post__meta--sponsored {
+        font-size: 12px
+    }
+}
+
+.classified__meta--sponsored:after,
+.company__meta--sponsored:after,
+.event__meta--sponsored:after,
+.job__meta--sponsored:after,
+.podcast__meta--sponsored:after,
+.post__meta--sponsored:after {
+    content: "|";
+    padding: 0 .5em
+}
+
+.classified__meta--category,
+.company__meta--category,
+.event__meta--category,
+.job__meta--category,
+.podcast__meta--category,
+.post__meta--category {
+    color: #e20613;
+    font-size: 10px;
+    font-family: utopia-std, sans-serif
+}
+
+@media screen and (min-width: 768px) {
+    .classified__meta--category,
+    .company__meta--category,
+    .event__meta--category,
+    .job__meta--category,
+    .podcast__meta--category,
+    .post__meta--category {
+        font-size: 12px
+    }
+}
+
+.classified__excerpt,
+.company__excerpt,
+.event__excerpt,
+.job__excerpt,
+.podcast__excerpt,
+.post__excerpt {
+    font-size: 13px
+}
+
+.classified__tile,
+.company__tile,
+.event__tile,
+.job__tile,
+.podcast__tile,
+.post__tile {
+    flex-direction: row
+}
+
+@media screen and (min-width: 768px) {
+    .classified__tile,
+    .company__tile,
+    .event__tile,
+    .job__tile,
+    .podcast__tile,
+    .post__tile {
+        flex-direction: column;
+        margin-bottom: 0;
+        flex: 1 0 auto;
+        height: 100%
+    }
+}
+
+.classified__tile--thumbnail,
+.company__tile--thumbnail,
+.event__tile--thumbnail,
+.job__tile--thumbnail,
+.podcast__tile--thumbnail,
+.post__tile--thumbnail {
+    width: 40%;
+    overflow: hidden
+}
+
+.classified__tile--thumbnail img,
+.company__tile--thumbnail img,
+.event__tile--thumbnail img,
+.job__tile--thumbnail img,
+.podcast__tile--thumbnail img,
+.post__tile--thumbnail img {
+    display: block
+}
+
+@media screen and (min-width: 768px) {
+    .classified__tile--thumbnail,
+    .company__tile--thumbnail,
+    .event__tile--thumbnail,
+    .job__tile--thumbnail,
+    .podcast__tile--thumbnail,
+    .post__tile--thumbnail {
+        width: 100%
+    }
+}
+
+.classified__tile--title,
+.company__tile--title,
+.event__tile--title,
+.job__tile--title,
+.podcast__tile--title,
+.post__tile--title {
+    margin-bottom: 0
+}
+
+.classified:hover,
+.company:hover,
+.event:hover,
+.job:hover,
+.podcast:hover,
+.post:hover {
+    background-color: #eaeaea
+}
+
+.classified:hover .post__title,
+.company:hover .post__title,
+.event:hover .post__title,
+.job:hover .post__title,
+.podcast:hover .post__title,
+.post:hover .post__title {
+    text-decoration: underline
+}
+
+.classified.category-oral-health-dental-hygiene-news,
+.company.category-oral-health-dental-hygiene-news,
+.event.category-oral-health-dental-hygiene-news,
+.job.category-oral-health-dental-hygiene-news,
+.podcast.category-oral-health-dental-hygiene-news,
+.post.category-oral-health-dental-hygiene-news {
+    border-color: #008fd5
+}
+
+.classified.category-oral-health-dental-hygiene-news .post__meta--category,
+.company.category-oral-health-dental-hygiene-news .post__meta--category,
+.event.category-oral-health-dental-hygiene-news .post__meta--category,
+.job.category-oral-health-dental-hygiene-news .post__meta--category,
+.podcast.category-oral-health-dental-hygiene-news .post__meta--category,
+.post.category-oral-health-dental-hygiene-news .post__meta--category {
+    color: #008fd5
+}
+
+.classified.category-nhs-to-private,
+.company.category-nhs-to-private,
+.event.category-nhs-to-private,
+.job.category-nhs-to-private,
+.podcast.category-nhs-to-private,
+.post.category-nhs-to-private {
+    border-color: #f8cd46
+}
+
+.classified.category-nhs-to-private .post__meta--category,
+.company.category-nhs-to-private .post__meta--category,
+.event.category-nhs-to-private .post__meta--category,
+.job.category-nhs-to-private .post__meta--category,
+.podcast.category-nhs-to-private .post__meta--category,
+.post.category-nhs-to-private .post__meta--category {
+    color: #f8cd46
+}
+
+.classified.category-dentistry-scotland,
+.company.category-dentistry-scotland,
+.event.category-dentistry-scotland,
+.job.category-dentistry-scotland,
+.podcast.category-dentistry-scotland,
+.post.category-dentistry-scotland {
+    border-color: #264e6f
+}
+
+.classified.category-dentistry-scotland .post__meta--category,
+.company.category-dentistry-scotland .post__meta--category,
+.event.category-dentistry-scotland .post__meta--category,
+.job.category-dentistry-scotland .post__meta--category,
+.podcast.category-dentistry-scotland .post__meta--category,
+.post.category-dentistry-scotland .post__meta--category {
+    color: #264e6f
+}
+
+.classified.category-private-dental-news,
+.company.category-private-dental-news,
+.event.category-private-dental-news,
+.job.category-private-dental-news,
+.podcast.category-private-dental-news,
+.post.category-private-dental-news {
+    border-color: #2f82d9
+}
+
+.classified.category-private-dental-news .post__meta--category,
+.company.category-private-dental-news .post__meta--category,
+.event.category-private-dental-news .post__meta--category,
+.job.category-private-dental-news .post__meta--category,
+.podcast.category-private-dental-news .post__meta--category,
+.post.category-private-dental-news .post__meta--category {
+    color: #2f82d9
+}
+
+.classified.category-blog,
+.company.category-blog,
+.event.category-blog,
+.job.category-blog,
+.podcast.category-blog,
+.post.category-blog {
+    border-color: #d0323e
+}
+
+.classified.category-blog .post__meta--category,
+.company.category-blog .post__meta--category,
+.event.category-blog .post__meta--category,
+.job.category-blog .post__meta--category,
+.podcast.category-blog .post__meta--category,
+.post.category-blog .post__meta--category {
+    color: #d0323e
+}
+
+.classified.category-laboratory,
+.company.category-laboratory,
+.event.category-laboratory,
+.job.category-laboratory,
+.podcast.category-laboratory,
+.post.category-laboratory {
+    border-color: #33d2dd
+}
+
+.classified.category-laboratory .post__meta--category,
+.company.category-laboratory .post__meta--category,
+.event.category-laboratory .post__meta--category,
+.job.category-laboratory .post__meta--category,
+.podcast.category-laboratory .post__meta--category,
+.post.category-laboratory .post__meta--category {
+    color: #33d2dd
+}
+
+.classified.category-dental-implants-news,
+.company.category-dental-implants-news,
+.event.category-dental-implants-news,
+.job.category-dental-implants-news,
+.podcast.category-dental-implants-news,
+.post.category-dental-implants-news {
+    border-color: #0065c8
+}
+
+.classified.category-dental-implants-news .post__meta--category,
+.company.category-dental-implants-news .post__meta--category,
+.event.category-dental-implants-news .post__meta--category,
+.job.category-dental-implants-news .post__meta--category,
+.podcast.category-dental-implants-news .post__meta--category,
+.post.category-dental-implants-news .post__meta--category {
+    color: #0065c8
+}
+
+.classified.category-endodontic-dental-news,
+.company.category-endodontic-dental-news,
+.event.category-endodontic-dental-news,
+.job.category-endodontic-dental-news,
+.podcast.category-endodontic-dental-news,
+.post.category-endodontic-dental-news {
+    border-color: #148a4d
+}
+
+.classified.category-endodontic-dental-news .post__meta--category,
+.company.category-endodontic-dental-news .post__meta--category,
+.event.category-endodontic-dental-news .post__meta--category,
+.job.category-endodontic-dental-news .post__meta--category,
+.podcast.category-endodontic-dental-news .post__meta--category,
+.post.category-endodontic-dental-news .post__meta--category {
+    color: #148a4d
+}
+
+.classified.category-cosmetic-aesthetic-dental-news,
+.company.category-cosmetic-aesthetic-dental-news,
+.event.category-cosmetic-aesthetic-dental-news,
+.job.category-cosmetic-aesthetic-dental-news,
+.podcast.category-cosmetic-aesthetic-dental-news,
+.post.category-cosmetic-aesthetic-dental-news {
+    border-color: #ae0065
+}
+
+.classified.category-cosmetic-aesthetic-dental-news .post__meta--category,
+.company.category-cosmetic-aesthetic-dental-news .post__meta--category,
+.event.category-cosmetic-aesthetic-dental-news .post__meta--category,
+.job.category-cosmetic-aesthetic-dental-news .post__meta--category,
+.podcast.category-cosmetic-aesthetic-dental-news .post__meta--category,
+.post.category-cosmetic-aesthetic-dental-news .post__meta--category {
+    color: #ae0065
+}
+
+.classified.category-orthodontic-dental-news,
+.company.category-orthodontic-dental-news,
+.event.category-orthodontic-dental-news,
+.job.category-orthodontic-dental-news,
+.podcast.category-orthodontic-dental-news,
+.post.category-orthodontic-dental-news {
+    border-color: #004b97
+}
+
+.classified.category-orthodontic-dental-news .post__meta--category,
+.company.category-orthodontic-dental-news .post__meta--category,
+.event.category-orthodontic-dental-news .post__meta--category,
+.job.category-orthodontic-dental-news .post__meta--category,
+.podcast.category-orthodontic-dental-news .post__meta--category,
+.post.category-orthodontic-dental-news .post__meta--category {
+    color: #004b97
+}
+
+.classified.category-undergraduate-dental-news,
+.company.category-undergraduate-dental-news,
+.event.category-undergraduate-dental-news,
+.job.category-undergraduate-dental-news,
+.podcast.category-undergraduate-dental-news,
+.post.category-undergraduate-dental-news {
+    border-color: #f46e00
+}
+
+.classified.category-undergraduate-dental-news .post__meta--category,
+.company.category-undergraduate-dental-news .post__meta--category,
+.event.category-undergraduate-dental-news .post__meta--category,
+.job.category-undergraduate-dental-news .post__meta--category,
+.podcast.category-undergraduate-dental-news .post__meta--category,
+.post.category-undergraduate-dental-news .post__meta--category {
+    color: #f46e00
+}
+
+.podcast {
+    border-bottom: 1px solid #000
+}
+
+.small-articles {
+    display: block!important;
+    margin-bottom: 1em
+}
+
+@media screen and (min-width: 768px) {
+    .small-articles {
+        margin-bottom: 0;
+        display: flex!important;
+        flex-direction: column;
+        flex: 1 1 0
+    }
+}
+
+.small-articles .post {
+    width: 100%
+}
+
+.small-articles .post:first-of-type {
+    margin-bottom: 1em
+}
+
+.small-articles .post__small--preview-wrapper {
+    padding: 10px 10px 8px;
+    width: 100%
+}
+
+.post__featured {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+    box-sizing: border-box
+}
+
+@media screen and (min-width: 768px) {
+    .post__featured {
+        flex-direction: row;
+        margin-bottom: 0
+    }
+}
+
+.post__featured--preview-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px 8px;
+    display: flex;
+    flex-direction: column
+}
+
+@media screen and (min-width: 768px) {
+    .post__featured--preview-wrapper {
+        width: 34.2857142857%
+    }
+}
+
+.post__featured--title {
+    font-size: 24px;
+    line-height: 28px;
+    flex: none
+}
+
+.post__featured--excerpt {
+    flex: 1 0 auto
+}
+
+.post__featured--excerpt p {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.post__featured--meta {
+    padding: 0
+}
+
+.post__featured--thumbnail {
+    width: 100%;
+    overflow: hidden
+}
+
+@media screen and (min-width: 768px) {
+    .post__featured--thumbnail {
+        width: 65.7142857143%
+    }
+}
+
+.post__featured--thumbnail img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.most-viewed-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 1em
+}
+
+@media screen and (min-width: 768px) {
+    .most-viewed-item {
+        flex-direction: column
+    }
+}
+
+.most-viewed-item:last-of-type {
+    margin-bottom: 0
+}
+
+.most-viewed-item b {
+    margin-right: .5em;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    color: #8b8b8b;
+    letter-spacing: 3px
+}
+
+@media screen and (min-width: 768px) {
+    .most-viewed-item b {
+        font-size: 1.4em;
+        margin-bottom: .5em
+    }
+}
+
+.most-viewed-item-single {
+    margin: 17px 0 0 20px
+}
+
+.most-viewed-item-single h3 {
+    margin: 0 0 13px
+}
+
+@media screen and (min-width: 1025px) {
+    .most-viewed-item-single {
+        margin: 17px 100px 0 20px
+    }
+}
+
+.post__most-viewed {
+    width: 100%
+}
+
+.post__most-viewed--title {
+    margin-bottom: .5em
+}
+
+.post__most-viewed--preview-wrapper {
+    padding: 10px 10px 8px;
+    width: 100%
+}
+
+.most-watched h2 {
+    font-size: 24px;
+    margin: 0
+}
+
+.most-watched a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #8b8b8b;
+    font-family: Lato, sans-serif;
+    text-decoration: none;
+    margin-left: 1em
+}
+
+.most-watched .most-viewed-item .post__most-viewed--title a:before {
+    font-family: dashicons;
+    content: "";
+    font-size: 1em;
+    color: #1d1d1d;
+    margin-right: .2em;
+    line-height: 1;
+    vertical-align: top
+}
+
+.post__long {
+    flex-direction: row
+}
+
+.post__long--thumbnail {
+    width: 40%;
+    overflow: hidden
+}
+
+.post__long--thumbnail img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.post__long--preview-wrapper {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 8px;
+    width: 60%
+}
+
+.post__long--title {
+    color: #1d1d1d;
+    font-size: 16px;
+    line-height: 19px;
+    flex: 1 0 auto;
+    margin: 0;
+    line-height: 1.2
+}
+
+@media screen and (min-width: 768px) {
+    .post__long--title {
+        font-size: 18px;
+        line-height: 23px
+    }
+}
+
+.post__long--meta {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline
+}
+
+.post__long--meta time {
+    font-size: 10px;
+    color: #8b8b8b;
+    display: inline-block;
+    line-height: 1
+}
+
+.post__long--meta time span {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 5px
+}
+
+.newsletter-cta-tile {
+    padding: 2em 1em;
+    background-color: #f6f6f6;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.newsletter-cta-tile .button {
+    transition: all .3s ease-in-out
+}
+
+.newsletter-cta-tile__container h4 {
+    margin-top: 0
+}
+
+.category-oral-health-dental-hygiene-news .newsletter-cta-tile .button {
+    background-color: #008fd5
+}
+
+.category-oral-health-dental-hygiene-news .newsletter-cta-tile .button:hover {
+    background-color: #006da2
+}
+
+.category-private-dental-news .newsletter-cta-tile .button {
+    background-color: #2f82d9
+}
+
+.category-private-dental-news .newsletter-cta-tile .button:hover {
+    background-color: #2169b4
+}
+
+.category-blog .newsletter-cta-tile .button {
+    background-color: #d0323e
+}
+
+.category-blog .newsletter-cta-tile .button:hover {
+    background-color: #a82730
+}
+
+.category-laboratory .newsletter-cta-tile .button {
+    background-color: #33d2dd
+}
+
+.category-laboratory .newsletter-cta-tile .button:hover {
+    background-color: #20b3bd
+}
+
+.category-dental-implants-news .newsletter-cta-tile .button {
+    background-color: #0065c8
+}
+
+.category-dental-implants-news .newsletter-cta-tile .button:hover {
+    background-color: #004b95
+}
+
+.category-endodontic-dental-news .newsletter-cta-tile .button {
+    background-color: #148a4d
+}
+
+.category-endodontic-dental-news .newsletter-cta-tile .button:hover {
+    background-color: #0e5d34
+}
+
+.category-cosmetic-aesthetic-dental-news .newsletter-cta-tile .button {
+    background-color: #ae0065
+}
+
+.category-cosmetic-aesthetic-dental-news .newsletter-cta-tile .button:hover {
+    background-color: #7b0047
+}
+
+.category-orthodontic-dental-news .newsletter-cta-tile .button {
+    background-color: #004b97
+}
+
+.category-orthodontic-dental-news .newsletter-cta-tile .button:hover {
+    background-color: #003264
+}
+
+.category-undergraduate-dental-news .newsletter-cta-tile .button {
+    background-color: #f46e00
+}
+
+.category-undergraduate-dental-news .newsletter-cta-tile .button:hover {
+    background-color: #c15700
+}
+
+.sidebar-container {
+    max-width: 100%
+}
+
+@media screen and (min-width: 1025px) {
+    .sidebar-container {
+        padding-left: 20px;
+        position: relative
+    }
+    .sidebar-container:before {
+        background-color: #cfcfcf;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        width: 1px
+    }
+}
+
+.sidebar-container:before {
+    content: "";
+    display: block
+}
+
+@media screen and (max-width: 1025px) {
+    .featured-posts_latest,
+    .featured_posts_category,
+    .latest-news_most-popular {
+        margin: 0
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .latest-news .col.is-20-md:last-child {
+        padding-bottom: 0
+    }
+}
+
+.most-popular_post {
+    width: 100%
+}
+
+.podcast,
+.post__long {
+    display: flex!important
+}
+
+@media (-ms-high-contrast:none),
+screen and (-ms-high-contrast:active) {
+    .most-viewed-item {
+        display: block
+    }
+}
+
+.featured_archive_block .latest-news.featured-archive-block .col.is-16-md.posts {
+    display: flex
+}
+
+.page-template-template-free-wall-login-register input,
+.page-template-template-free-wall-login-register select,
+.page-template-template-free-wall-login-register textarea {
+    border: 1px solid #cfcfcf!important
+}
+
+.single-post .post-meta img.wp-post-image {
+    display: none
+}
+
+.no-margin-bottom {
+    margin-bottom: 0
+}
