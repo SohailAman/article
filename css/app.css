@@ -3467,10 +3467,9 @@ body.flag-primary-menu-open {
 
 /* ----Form */
 form.contact-form {
-    max-width: 100%;
+    max-width: 60%;
     margin: auto;
-    padding: 20px;
-    background: #f4f7f8;
+    padding: 20px 0;
     border-radius: 8px;
     font-family: Lato, sans-serif;
 }
@@ -3478,23 +3477,24 @@ form.contact-form {
 form.contact-form h5 {
     font-family: Lato, sans-serif;
     margin: 30px 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 form.contact-form input {
     font-family: Lato, sans-serif;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid transparent;
-    font-size: 16px;
+    background: #f2f3f5;
+    border: 1px solid #edeef2;
+    border-radius: 16px;
+    font-size: 14px;
     height: auto;
     margin: 0;
     outline: 0;
-    padding: 8px;
+    padding: 8px 12px;
     width: 100%;
     background-color: #e8eeef;
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     transition: all .2s;
 }
 
@@ -3502,34 +3502,27 @@ form.contact-form input:focus {
     border: 1px solid rgb(226 6 19/1);
 }
 
-form.contact-form button {
+form.contact-form .sub-btn {
     font-family: Lato, sans-serif;
-    padding: 10px 0 9px 0;
+    padding: 8px 28px 7px 28px;
+    border-radius: 16px;
     color: #fff;
     background-color: rgb(226 6 19/1);
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     font-style: normal;
-    border-radius: 5px;
-    width: 100%;
     border: none;
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
     margin-bottom: 10px;
 }
 
-/* form.contact-form .inn {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
+.iti.iti--allow-dropdown.iti--show-flags {
+    width: 100%;
 }
 
-form.contact-form .inn .input-grp {
-    flex: 1;
-} */
-
 form.contact-form fieldset {
-    margin-bottom: 10px;
-    border: none;
+
+    margin-bottom: 18px;
 }
 
 form.contact-form legend {
@@ -3543,10 +3536,6 @@ form.contact-form label {
     font-family: Lato, sans-serif;
 }
 
-form.contact-form label.light {
-    font-weight: 300;
-    display: inline;
-}
 
 
 @media screen and (max-width: 600px) {
