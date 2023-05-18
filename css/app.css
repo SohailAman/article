@@ -3485,11 +3485,11 @@ form.contact-form input {
     font-family: Lato, sans-serif;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid transparent;
-    font-size: 16px 12px;
+    font-size: 16px;
     height: auto;
     margin: 0;
     outline: 0;
-    padding: 15px;
+    padding: 10px 14px;
     width: 100%;
     background-color: #e8eeef;
     color: #8a97a0;
@@ -3504,7 +3504,7 @@ form.contact-form input:focus {
 
 form.contact-form button {
     font-family: Lato, sans-serif;
-    padding: 16px 0 15px 0;
+    padding: 12px 0 11px 0;
     color: #fff;
     background-color: rgb(226 6 19/1);
     font-size: 18px;
