@@ -406,29 +406,22 @@
         <div class="container overflow-auto">
             <div class="flex">
                 <div class="w-full px-4">
-
                     <section class="dfp dfp__leaderboard dfp__leaderboard--header">
-
-
                         <!-- /3287416/Dentistry_Article_Leaderboard_Top -->
                         <div id='div-gpt-ad-1590355992481-0'>
-
                         </div>
-
-
                     </section>
-
                 </div>
             </div>
         </div>
     </div>
+
     <div class="ads_skyscraper--flag"></div>
     <div class="ads_skyscraper__wrapper">
         <div class="ads_skyscraper">
             <div class="ads_skyscraper__left">
                 <!-- /3287416/Dentistry_Fireplace_Left -->
                 <div id='div-gpt-ad-1645522084892-0' style='min-width: 120px; min-height: 600px;'>
-
                 </div>
             </div>
             <div class="ads_skyscraper__right">
@@ -439,9 +432,6 @@
             </div>
         </div>
     </div>
-
-
-
 
     <section class="main mt-4">
         <div class="container">
@@ -474,21 +464,21 @@
                                 <p>Share:</p>
                                 <ul>
                                     <li>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="#" class="popup-trigger">
                                             <span class="icomoon bi bi-linkedin"></span></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#"></span></a>
+                                        <a target="_blank" href="#" class="popup-trigger"></span></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="#"></span></a>
+                                        <a target="_blank" href="#" class="popup-trigger"></span></a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" class="popup-trigger">
                                             <span class="dashicons dashicons-email-alt"></span></a>
                                     </li>
                                     <li>
-                                        <a href="#" id="copy_url_content"> <span
+                                        <a href="#" class="popup-trigger" id="copy_url_content"> <span
                                                 class="dashicons dashicons-admin-links"></span></a>
                                     </li>
                                 </ul>
@@ -636,24 +626,24 @@
                             <p>Share:</p>
                             <ul>
                                 <li>
-                                    <a target="_blank" href="#">
+                                    <a target="_blank" href="#" class="popup-trigger">
                                         <span class="icomoon bi bi-linkedin"></span></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#">
+                                    <a target="_blank" href="#" class="popup-trigger">
                                         <span class="dashicons dashicons-facebook-alt"></span></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#">
+                                    <a target="_blank" href="#" class="popup-trigger">
                                         <span class="dashicons dashicons-twitter"></span></a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#" class="popup-trigger">
                                         <span class="dashicons dashicons-email-alt"></span></a>
                                 </li>
                                 <li>
-                                    <a href="#/" id="copy_url"> <span
-                                            class="dashicons dashicons-admin-links"></span></a>
+                                    <a href="#" class="popup-trigger" id="copy_url">
+                                        <span class="dashicons dashicons-admin-links"></span></a>
                                 </li>
                             </ul>
                         </div>
@@ -676,7 +666,7 @@
                             <h4 class="font-bold text-lg text-center mb-4">
                                 Become a Dents Online member
                             </h4>
-                            <a href="#" class="button">Become a member</a>
+                            <a href="#" class="button popup-trigger">Become a member</a>
                         </div>
                         <div class="text-left">
                             <h3 class="mb-4 mt-8 font-bold text-xl">
@@ -834,6 +824,30 @@
         </div>
     </section>
 
+    <div class="popup">
+        <button class="close">
+            <i class="bi bi-x"></i>
+        </button>
+        <form class="contact-form" action="#">
+            <h5> Try Instagram engagement with InstaIdol: </h5>
+
+            <fieldset>
+                <label for="name">First Name </label>
+                <input type="text" id="name" name="user_name" placeholder="Your name">
+
+                <label for="email">Email </label>
+                <input type="email" id="mail" name="user_email" placeholder="Your email">
+
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input id="phone3" type="tel">
+                </div>
+            </fieldset>
+
+            <button type="submit" class="sub-btn">Submit</button>
+
+        </form>
+    </div>
 
     <section id="section-related-posts" class="section-related-posts">
         <div class="container mx-auto">
@@ -1565,6 +1579,10 @@
     <script type='text/javascript' src='./js/core.js' id='jquery-ui-core-js'></script>
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
     <script>
+        var input3 = document.querySelector("#phone3");
+        window.intlTelInput(input3, {
+            utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+        });
         var input1 = document.querySelector("#phone1");
         window.intlTelInput(input1, {
             utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
@@ -1587,6 +1605,22 @@
             src="https://px.ads.linkedin.com/collect/?pid=4232177&fmt=gif" />
     </noscript>
 
+
+    <script>
+        let popup = document.querySelector('.popup');
+        let popupTrigger = document.querySelectorAll('.popup-trigger');
+        let closeBtn = document.querySelector('.close');
+
+        popupTrigger.forEach((btn) => {
+            btn.addEventListener('click', () => {
+                popup.classList.add('show')
+            })
+        });
+        closeBtn.addEventListener('click', () => {
+            popup.classList.remove('show')
+        });
+
+    </script>
 
 </body>
 

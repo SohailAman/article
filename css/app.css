@@ -3536,7 +3536,48 @@ form.contact-form label {
     font-family: Lato, sans-serif;
 }
 
+.popup {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    background-color: #fff;
+    box-shadow: 2px 2px 47px 1px #99999973;
+    border-radius: 28px;
+    width: 480px;
+    height: auto;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+}
 
+.popup.show {
+    width: 480px;
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s;
+}
+
+.popup form.contact-form {
+    max-width: 80%;
+}
+
+.popup .close {
+    color: #000;
+    font-size: 20px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
 
 @media screen and (max-width: 600px) {
     /* form.contact-form .inn {
@@ -3552,6 +3593,10 @@ form.contact-form label {
     form.contact-form button {
         font-size: 12px;
         padding: 8px 0 7px 0;
+    }
+
+    .popup.show {
+        width: 95vw;
     }
 }
 
