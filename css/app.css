@@ -3540,7 +3540,7 @@ form.contact-form label {
     position: fixed;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 9;
+    z-index: 99999;
     background-color: #fff;
     box-shadow: 2px 2px 47px 1px #99999973;
     border-radius: 28px;
